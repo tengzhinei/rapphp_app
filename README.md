@@ -1,4 +1,4 @@
-## RapPHP  为速度而生的PHP 框架
+## RapPHP  为效率而生的PHP 框架
 
 
 
