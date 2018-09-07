@@ -10,6 +10,7 @@ RapPHP 框架提供了全面的 IOC,AOP的底层支持,架构设计简洁而有�
 
 github [https://github.com/tengzhinei/rapphp](https://github.com/tengzhinei/rapphp)
 
+在线文档 [http://doc.magcloud.cc/](http://doc.magcloud.cc/)
 
 #### 主要特性:
 
