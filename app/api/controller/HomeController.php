@@ -2,7 +2,9 @@
 namespace app\api\controller;
 
 use app\api\service\TestService;
+use rap\cache\RedisCache;
 use rap\log\Log;
+use rap\swoole\lock\RedisLocker;
 use rap\web\Response;
 
 /**
@@ -41,5 +43,9 @@ class HomeController {
     }
 
 
+    public function lock($key='test'){
+        RedisLocker::lock($key);
+        RedisLocker::unlock($key);
+    }
 
 }
