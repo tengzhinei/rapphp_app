@@ -46,6 +46,7 @@ class HomeController {
     public function lock($key='test'){
         RedisLocker::lock($key);
         RedisLocker::unlock($key);
+
     }
 
 }
