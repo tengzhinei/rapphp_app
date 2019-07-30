@@ -1,6 +1,6 @@
 <?php
 namespace app;
-use app\api\controller\HomeController;
+use app\controller\HomeController;
 use rap\Init;
 use rap\web\mvc\AutoFindHandlerMapping;
 use rap\web\mvc\Router;

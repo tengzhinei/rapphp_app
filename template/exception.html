@@ -15,9 +15,11 @@
 </head>
 <body>
 <div class="wrap">
+    <span >默认错误页 可以在 template/exception.html 修改样式</span>
     <table>
         <tr>
             <td rowspan="5" style=""><img src="http://qzonestyle.gtimg.cn/open/qcloud/beian/dest/warn.png"></td>
+
             <td class="header">{{msg}}</td>
             <td ><a href="javascript:history.go(-1)"><span id="time">3</span>s后 立即返回 </a></td>
         </tr>
@@ -31,7 +33,7 @@
         var el= document.getElementById('time');
         el.textContent=i;
         if(i==0){
-            history.go(-1);
+//            history.go(-1);
         }
     },1000);
 

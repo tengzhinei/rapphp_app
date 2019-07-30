@@ -3,12 +3,10 @@
  * User: jinghao@duohuo.net
  * Date: 18/9/4
  * Time: 下午5:58
- * Link:  http://magapp.cc
- * Copyright:南京灵衍信息科技有限公司
  */
-namespace app\api\service;
+namespace app\service;
 
-class TestService {
+class CommonService {
 
     /**
      * @return string
